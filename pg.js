@@ -1,6 +1,5 @@
-function gerarFraseMotivacional (params) {
-    
-    const frases = [
+function gerarFrasesMotivacionais(params) {
+  const frases = [
     "Acredite em si mesmo e você será imparável",
     "A persistência leva ao sucesso",
     "Cada dia é uma nova oportunidade para brilhar",
@@ -10,11 +9,11 @@ function gerarFraseMotivacional (params) {
     "Tudo que você pode fazer, ou sonha que pode, comece",
     "O verdadeiro teste não está em evitar o fracasso, pois isso é impossível",
     "O sucesso não é definitivo, e o fracasso não é fatal",
-    "A vida é 10% o que acontece a você e 90% como você reage a isso"
-  ]
+    "A vida é 10% o que acontece a você e 90% como você reage a isso",
+  ];
 
-  const numeroAleatio = Math.floor(Math.random() * 10)
-  const frase = frases [numeroAleatio]
+  const numeroAleatorio = Math.floor(Math.random() * 10);
+  const frase = frases[numeroAleatorio];
 
-  document.getElementById('frase').innerHTML = frase 
-  }
+  document.getElementById("frase").innerHTML = frase;
+}
